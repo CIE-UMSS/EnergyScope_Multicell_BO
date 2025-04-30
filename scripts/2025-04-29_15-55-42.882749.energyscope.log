@@ -1,0 +1,34 @@
+25/04/29 15:55:49 [INFO    ] (read_data_indep): Read indep data from C:\Users\Pablo Jimenez Z\PycharmProjects\EnergyScope_multi_cells\Data\2021\00_INDEP
+25/04/29 15:55:49 [INFO    ] (init_regions): Initialising regions: SA-BN, SA-PA, SA-SC, SA-TJ, SIN
+25/04/29 15:55:49 [INFO    ] (read_data): Read data from C:\Users\Pablo Jimenez Z\PycharmProjects\EnergyScope_multi_cells\Data\2021\02_REF_REGION
+25/04/29 15:55:49 [INFO    ] (read_data): Read data from C:\Users\Pablo Jimenez Z\PycharmProjects\EnergyScope_multi_cells\Data\2021\SA-BN
+25/04/29 15:55:49 [INFO    ] (read_data): Read data from C:\Users\Pablo Jimenez Z\PycharmProjects\EnergyScope_multi_cells\Data\2021\SA-PA
+25/04/29 15:55:49 [INFO    ] (read_data): Read data from C:\Users\Pablo Jimenez Z\PycharmProjects\EnergyScope_multi_cells\Data\2021\SA-SC
+25/04/29 15:55:49 [INFO    ] (read_data): Read data from C:\Users\Pablo Jimenez Z\PycharmProjects\EnergyScope_multi_cells\Data\2021\SA-TJ
+25/04/29 15:55:49 [INFO    ] (read_data): Read data from C:\Users\Pablo Jimenez Z\PycharmProjects\EnergyScope_multi_cells\Data\2021\SIN
+25/04/29 15:55:49 [INFO    ] (read_data_exch): Read exchanges data from C:\Users\Pablo Jimenez Z\PycharmProjects\EnergyScope_multi_cells\Data\2021\01_EXCH
+25/04/29 15:55:49 [INFO    ] (init_ta): Initializing TemporalAggregation with kmedoid algorithm
+25/04/29 15:55:49 [INFO    ] (kmedoid_clustering): Starting kmedoid clustering of typical days based on C:\Users\Pablo Jimenez Z\PycharmProjects\EnergyScope_multi_cells\case_studies\SA-BN_SA-PA_SA-SC_SA-TJ_SIN\00_td_dat\data_16.dat
+25/04/29 15:56:39 [INFO    ] (kmedoid_clustering): End of typical days clustering
+25/04/29 15:56:39 [INFO    ] (__init__): The typical days clustering has an time series error of 0.0890590647766067
+25/04/29 15:56:39 [INFO    ] (generate_t_h_td): t_h_td and td_count generated
+25/04/29 15:56:39 [INFO    ] (print_td_data): Printing TD data into C:\Users\Pablo Jimenez Z\PycharmProjects\EnergyScope_multi_cells\case_studies\SA-BN_SA-PA_SA-SC_SA-TJ_SIN\BAU\reg_16TD.dat
+25/04/29 15:56:39 [INFO    ] (generate_t_h_td): t_h_td and td_count generated
+25/04/29 15:56:39 [INFO    ] (print_data): Printing regional data into C:\Users\Pablo Jimenez Z\PycharmProjects\EnergyScope_multi_cells\case_studies\SA-BN_SA-PA_SA-SC_SA-TJ_SIN\BAU
+25/04/29 15:56:39 [INFO    ] (set_esom): Copying mod file from C:\Users\Pablo Jimenez Z\PycharmProjects\EnergyScope_multi_cells\esmc\energy_model to C:\Users\Pablo Jimenez Z\PycharmProjects\EnergyScope_multi_cells\case_studies\SA-BN_SA-PA_SA-SC_SA-TJ_SIN\BAU
+25/04/29 15:56:39 [INFO    ] (set_esom): Using default ampl_options
+25/04/29 15:56:39 [INFO    ] (set_esom): Setting esom into C:\Users\Pablo Jimenez Z\PycharmProjects\EnergyScope_multi_cells\case_studies\SA-BN_SA-PA_SA-SC_SA-TJ_SIN\BAU
+25/04/29 15:56:39 [INFO    ] (update_version): Updating C:\Users\Pablo Jimenez Z\PycharmProjects\EnergyScope_multi_cells\case_studies\SA-BN_SA-PA_SA-SC_SA-TJ_SIN\versions.json
+25/04/29 15:56:40 [INFO    ] (solve_esom): Solving optimisation problem
+25/04/29 15:59:20 [INFO    ] (solve_esom): Finished run
+25/04/29 15:59:20 [INFO    ] (get_year_results): Getting year summary
+25/04/29 15:59:20 [INFO    ] (get_objective): Getting Objective
+25/04/29 15:59:20 [INFO    ] (get_total_cost): Getting TotalCost
+25/04/29 15:59:20 [INFO    ] (get_cost_breakdown): Getting Cost_breakdown
+25/04/29 15:59:20 [INFO    ] (get_gwp_breakdown): Getting Gwp_breakdown
+25/04/29 15:59:20 [INFO    ] (get_resources_and_exchanges): Getting Yearly resources and exchanges
+25/04/29 15:59:23 [INFO    ] (get_assets): Getting Assets and Storage assets
+25/04/29 16:00:00 [INFO    ] (get_year_balance): Getting Year_balance
+25/04/29 16:00:01 [INFO    ] (get_curt): Getting Curt
+25/04/29 16:00:05 [INFO    ] (prints_esom): Printing results into outputs
+25/04/29 16:00:08 [INFO    ] (get_solve_info): Getting solve_info
